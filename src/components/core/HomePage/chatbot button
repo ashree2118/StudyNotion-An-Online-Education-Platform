@@ -1,8 +1,9 @@
 <button class="chatbotbutton"> Chatbot </button>
-function recipe() {
-    let name = prompt("What is your name?");
-    let email = prompt("What is your email address?");
-    alert(
+<script>
+    function recipe() {
+        let name = prompt("What is your name?");
+        let email = prompt("What is your email address?");
+        alert(
             "Thank you, " +
             name +
             " ! We will connect you to the chatbot shortly!!"
@@ -10,7 +11,8 @@ function recipe() {
         );
 
   
-}
+    }
 
-let chatbotButton = document.querySelector(" button");
-chatbotButton.addEventListener("click", recipe);
+    let chatbotButton = document.querySelector(" button");
+    chatbotButton.addEventListener("click", recipe);
+</script>
